@@ -1,0 +1,581 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.main {
+    background-color: #FF5200;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 37px;
+
+
+}
+
+nav ul {
+    display: flex;
+    grid-gap: 32px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -.4px;
+    cursor: pointer;
+    z-index: 10000;
+    align-items: center;
+}
+
+
+li {
+    list-style: none;
+    color: white;
+
+
+}
+
+.Get-Button {
+    display: flex;
+    background-color: #FF5200;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    padding: 18px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.SignIn {
+    background-color: black;
+    border: none;
+    border-radius: 16px;
+    padding: 18px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    align-self: stretch;
+}
+
+.left-image {
+    height: 450px;
+    width: 250px;
+    position: absolute;
+    top: 90px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.right-image {
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.cont1 {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    /* width: 350px; */
+    /* height: 70px; */
+    background-color: white;
+    border-radius: 16px;
+}
+
+.loc {
+    padding: 10px;
+    object-fit: contain;
+
+}
+
+.input {
+    background-color: white;
+    /* width: 306px; */
+    height: 56px;
+    border: 1px solid #fff;
+    border-radius: 16px;
+    padding: 16px;
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+    outline: none;
+
+}
+
+.input1 {
+    width: 230px;
+    /* background: #000; */
+}
+
+.input2 {
+    width: 390px;
+    /* background: #000; */
+
+}
+
+
+.inputcontainer {
+    /* width: 80%; */
+    /* align-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cont2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.downicon {
+    height: 30px;
+    width: 30px;
+
+}
+
+.search {
+    height: 30px;
+    width: 30px;
+}
+
+.locationSymbol {
+    height: 30px;
+    width: 30px;
+    color: #FF5200;
+}
+
+.sidearrow {
+    height: 20px;
+    width: 20px;
+    font-weight: bold;
+}
+
+.itemsSection {
+    /* display: flex; */
+    width: 80%;
+    margin: 100px auto;
+    background-color: white;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    overflow-x: scroll;
+}
+
+.items::-webkit-scrollbar {
+    display: none;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+}
+
+.restaurants {
+    background-color: white;
+    /* height: 420px; */
+    width: 80%;
+    margin: 100px auto;
+}
+
+.box {
+    position: relative;
+    width: 328px;
+    height: 379px;
+    border: 1px solid rgba(2, 6, 12, 0.08);
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+.picture {
+    /* position: absolute; */
+    top: 0;
+    width: 328px;
+    height: 189px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.para {
+    margin-top: 8px;
+
+}
+
+.para1 {
+    color: grey;
+    font-size: 13px;
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+    justify-content: space-between;
+}
+
+.smallbox {
+    display: flex;
+    gap: 2px;
+    margin-top: 5px;
+
+
+
+}
+
+.smallbox1 {
+    font-size: 9px;
+    border-radius: 12px;
+    padding: 2px 8px;
+    background-color: rgba(2, 6, 12, 0.15);
+    color: rgba(2, 6, 12, 0.6);
+    margin-left: 12px;
+
+
+
+}
+
+.smallbox1 p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.smallbox1 p span {
+    font-family: "Roboto Condensed", sans-serif !important;
+
+}
+
+.tag {
+    height: 10px;
+    width: 10px;
+}
+
+.offerbox {
+    display: flex;
+    background-color: rgb(27, 166, 114);
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 0px 8px;
+    margin: 12px 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700px;
+    height: 36px;
+    align-items: center;
+}
+
+.offerbox p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+
+}
+
+.offerbox2 {
+    color: rgb(27, 166, 114);
+    background-color: #C8F9E5;
+}
+
+.more1 {
+    font-size: 13px;
+}
+
+.boxcontainer {
+    display: flex;
+    /* width: 80%; */
+    overflow-x: scroll;
+    gap: 10px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.boxcontainer::-webkit-scrollbar {
+    display: none;
+}
+
+.restaurantname {
+    width: 328px;
+    height: 189px;
+    position: relative;
+}
+
+.name {
+    width: 90%;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name p {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.name .rating {
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5px;
+}
+
+.banner {
+    height: 400px;
+}
+
+.bannerimg {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.cities {
+    /* height: 330px; */
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.citydeliverybox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 13px;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.citybox {
+    width: 220px;
+    border: 1.5px solid rgba(2, 6, 12, 0.15);
+    padding: 16px;
+    border-radius: 12px;
+    color: rgba(2, 6, 12, 0.75);
+    font-size: 14px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.showmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF5200;
+    font-weight: 600;
+}
+
+.downicon2 {
+    width: 16px;
+}
+
+.footer {
+    /* height: 360px; */
+    display: flex;
+    font-size: 16px;
+    color: rgba(2, 6, 12, 0.6);
+    background-color: rgb(240, 240, 245);
+    margin: auto;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 45px;
+    padding: 35px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    /* margin-top: 20px; */
+}
+
+.footer ul li {
+    list-style: none;
+    color: rgba(2, 6, 12, 0.6);
+    margin-top: 10px;
+
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    color: black !important;
+}
+
+.legal {
+    margin-top: 50px;
+}
+
+.boxy {
+    margin-top: 10px;
+    border: 1.5px solid rgba(2, 6, 12, 0.15);
+    border-radius: 12px;
+
+    /* text-align: center; */
+}
+
+.boxy p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.socialapp {
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+.download {
+    /* height: 200px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 245);
+    gap: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.download h2 {
+    text-align: center;
+}
+
+.abcd {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-list li {
+        display: none;
+    }
+
+    .itemsSection {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .restaurants {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .Get-Button {
+        display: none;
+    }
+
+    .SignIn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .input {
+        height: 40px;
+        padding: 12px;
+        font-size: 14px;
+        color: gray;
+        font-weight: 600;
+    }
+
+    .input1 {
+        width: 200px;
+        /* background: #000; */
+    }
+
+    .input2 {
+        width: 300px;
+        /* background: #000; */
+
+    }
+
+    .locationSymbol {
+        height: 15px;
+        width: 15px;
+    }
+
+    .downicon {
+        height: 15px;
+        width: 15px;
+
+    }
+
+    .search {
+
+        height: 15px;
+        width: 15px;
+    }
+
+    .left-image {
+        width: 190px;
+        height: 350px;
+    }
+
+    .right-image {
+        width: 190px;
+    }
+
+    .content h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .cont2 img {
+        width: 350px;
+    }
+}
